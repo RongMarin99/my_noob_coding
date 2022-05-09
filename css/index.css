@@ -1,0 +1,1972 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+}
+/*header*/
+.wrapper .header{
+    width: 100%;
+    height: 170px;
+    background-color: #161616;
+}
+.wrapper .header .topheader{
+    width: 75%;
+    height: 120px;
+    margin: 0 auto;
+}
+.wrapper .header .topheader .logo img{
+    width: 83px;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+}
+.wrapper .header .topheader .ad img{
+    float: right;
+    margin-top: 15px;
+}
+/*menu*/
+.wrapper .header .bottomhead{
+    width: 100%;
+    height: 50px;
+    background-color: #fa1939;
+    z-index: 2;
+}
+/*homelogo*/
+.wrapper .header .bottomhead .home{
+    width: 49px;
+    height: 100%;
+    float: left;
+    margin-left: 195px;
+    background-color: rgb(0 0 0 / 20%);
+    
+}
+.wrapper .header .bottomhead .home img{
+    margin: 15px 14px;
+    width: 20px;
+    height: 20px; 
+}
+/*menu*/
+.wrapper .header .bottomhead .menu ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.wrapper .header .bottomhead .menu ul li{
+    display: inline-block;
+    margin-top: -10px;
+}
+.wrapper .header .bottomhead .menu ul li a{
+    text-decoration: none;
+    color: #ffffffcc;
+    display: block;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: koulen,sans-serif;
+}
+.wrapper .header .bottomhead .menu ul li a:hover{
+    color: white;
+    transition: 0.2s;
+}
+.sub{
+    z-index: 9999;;
+   margin-top: -3px;
+    display: none;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background-color: #fa1939;
+}
+.sub ul{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10px;
+}
+.sub ul li{
+    display: inline-block;
+}
+.sub ul li a{
+    width: 90px;
+    height: 30px;
+    text-decoration: none;
+    color: #ffffffcc;
+    display: block;
+    font-size: 18px;
+    padding: 10px 15px;
+    font-family: koulen,sans-serif;
+}
+.sub ul li a:hover{
+    color: white;
+    transition: 0.2s;
+    z-index: 1;
+}
+.wrapper .header .bottomhead .menu ul li:hover .sub{
+    display: block;
+}
+/*submenu*/
+.wrapper .header .bottomhead .menu ul li.deal a:hover{
+    background-color: rgb(0 0 0 / 40%);
+}
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-top: -2px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+/*content*/
+.wrapper .content{
+    margin: 10px;
+    width: 100%;
+   
+    background-color: #f1f1f1;
+ 
+}
+/*slide*/
+.wrapper .content .slide{
+    width: 75%;
+    height: 507px;
+    margin: 0 auto;
+   
+}
+/*tapnews*/
+.wrapper .content .slide .news{
+    width: 830px;
+    height: 507px;
+    float: left;
+    
+}
+/*tapads*/
+.wrapper .content .slide .ads{
+    width: 300px;
+    height: 507px;
+    float: right;
+}
+/*padding ads bottom*/
+.wrapper .content .slide .ads .adsbottom{
+padding-top: 3px;
+}
+/*newstop*/
+.wrapper .content .slide .news .newstop{
+    width: 830px;
+    height: 253.5px;
+   
+}
+/*newsleft*/
+.wrapper .content .slide .news .newstop .newsleft{
+    width: 500px;
+    height: 253.5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*newsrigth*/
+.wrapper .content .slide .news .newstop .newsrigth{
+    width: 330px;
+    height: 253.5px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+/*newsbottom*/
+.wrapper .content .slide .news .newsbottom{
+    width: 830px;
+    height: 253.5px;
+   
+}
+/*newsleft*/
+.wrapper .content .slide .news .newsbottom .newsleft{
+    width: 500px;
+    height: 253.5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*newsrigth*/
+.wrapper .content .slide .news .newsbottom .newsrigth{
+    width: 330px;
+    height: 253.5px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+/*imgnewstopleft*/
+
+.wrapper .content .slide .news .newstop .newsleft .imgnews img{
+    width: 500px;
+    height: 253.5px;
+    position: absolute;
+}
+.wrapper .content .slide .news .newstop .newsleft .label{
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    z-index: 1100;
+}
+.newsleft .label span{
+    padding: 0px 15px;
+    color: #fff;
+    font-family: 'Odor Mean Chey';
+    font-size: 13px;
+    line-height: 35px;
+    
+}
+/*newstoprigth*/
+.wrapper .content .slide .news .newstop .newsrigth .imgnews img{
+    width: 330px;
+    height: 253.5px;
+    position: absolute;
+}
+.wrapper .content .slide .news .newstop .newsrigth .label{
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    z-index: 1100;
+}
+.newsrigth .label span{
+    padding: 0px 15px;
+    color: #fff;
+    font-family: 'Odor Mean Chey';
+    font-size: 13px;
+    line-height: 35px;
+}
+/*caption*/
+.wrapper .content .slide .news .newstop .newsrigth .caption{
+    display: block;
+     position: absolute;
+     z-index: 1100;
+     width: 330px;
+     float: right;
+     transition: all ease-in-out 0.3s;
+     bottom: -10px;
+ }
+ .wrapper .content .slide .news .newstop .newsrigth:hover .caption{
+     bottom: 0;
+     
+     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 60%,#000 100%);
+ }
+ .wrapper .content .slide .news .newstop .newsrigth:hover .caption h4{
+     color: rgb(255, 0, 43);
+ }
+ 
+ .newsrirgth .caption h4,h6{
+     font-family:'Odor Mean Chey',cursive;
+     padding: 0px 10px;
+     color: #fff;
+     font-size: 20px;
+     font-weight: normal;
+     margin-bottom: 40px;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+ }
+ 
+ .newsrigth .caption h6{
+   font-size: 12px;
+   display: none;
+   margin-top: -35px;
+   padding-bottom: 0px;
+ }
+ .newsrigth:hover .caption h6{
+     display: block;
+ }
+ .newsrigth .date {
+    margin-top: 225px;
+    position: absolute;
+    z-index: 1200;
+    width: 330px;
+    height: 253.5px;
+    float: left;
+    display: block;
+ }
+ .newsrigth .date h5{
+     padding-left: 20px;
+     font-family: 'odor mean chey', cursive;
+     color: #fff;
+     font-size: 12px;
+     font-weight: normal;
+    
+ }
+/*background label color*/
+.bg-pink{
+    background-color: #FA5480;
+}
+.bg-blue{
+    background-color: #4390F8;
+}
+.bg-yellow{
+    background-color: #F9A62B;
+}
+.bg-green{
+    background-color: #38C378;
+}
+.bg-red{
+    background-color: #F2272F;
+}
+/*conner label style*/
+.slide .label .conner-pink{
+    border-left: 20px solid #FA5480;
+    border-top: 35px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.slide .newsbottom .label .conner-pink{
+    border-left: 20px solid #FA5480;
+    border-top: 34px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-blue{
+    border-left: 20px solid #4390F8;
+    border-top: 35px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.newsbottom .label .conner-blue{
+    border-left: 20px solid #4390F8;
+    border-top: 34px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-yellow{
+    border-left: 20px solid #F9A62B;
+    border-top: 35px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-green{
+    border-left: 20px solid #38C378;
+    border-top: 35px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-red{
+    border-left: 20px solid #F2272F;
+    border-top: 49.5px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-pink{
+    border-left: 20px solid #FA5480;
+    border-top: 49.5px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.label .conner-green{
+    border-left: 20px solid #38C378;
+    border-top: 49.5px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.social .label .conner-yellow{
+    border-left: 20px solid #F9A62B;
+    border-top: 49.5px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+.sport .label .conner-blue{
+    border-left: 20px solid #4390F8;
+    border-top: 49.5px solid transparent;
+    border-bottom: 0px transparent;
+    position: absolute;
+    display: inline-block;
+}
+/*cover dark*/
+.cover{
+    width: 830px;
+    height: 507px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.4;
+}
+/*caption*/
+.wrapper .content .slide .news .newstop .newsleft .caption{
+   display: block;
+    position: absolute;
+    z-index: 1100;
+    width: 500px;
+    float: left;
+    transition: all ease-in-out 0.3s;
+    bottom: -10px;
+}
+.wrapper .content .slide .news .newstop .newsleft:hover .caption{
+    bottom: 0;
+    
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 60%,#000 100%);
+}
+.wrapper .content .slide .news .newstop .newsleft:hover .caption h4{
+    color: rgb(255, 0, 43);
+}
+
+.caption h4,h6{
+    font-family:'Odor Mean Chey',cursive;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+}
+
+.newsleft .caption h6{
+  font-size: 12px;
+  display: none;
+  margin-top: -35px;
+  padding-bottom: 0px;
+}
+.newsleft:hover .caption h6{
+    display: block;
+}
+.newsleft .date {
+   margin-top: 225px;
+   position: absolute;
+   z-index: 1200;
+   width: 500px;
+   height: 253.5px;
+   float: left;
+   display: block;
+}
+.newsleft .date h5{
+    padding-left: 20px;
+    font-family: 'odor mean chey', cursive;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+   
+}
+/*newsbottomleft*/
+/*imgnewsbottomleft*/
+
+.wrapper .content .slide .news .newsbottom .newsleft .imgnews img{
+    width: 500px;
+    height: 253.5px;
+    position: absolute;
+}
+.wrapper .content .slide .news .newsbottom .newsleft .label{
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    z-index: 1100;
+}
+.newsbottom .newsleft .label span{
+    padding: 0px 15px;
+    color: #fff;
+    font-family: 'Odor Mean Chey';
+    font-size: 13px;
+    line-height: 35px;
+    
+}
+/*caption*/
+.wrapper .content .slide .news .newsbottom .newsleft .caption{
+    display: block;
+     position: absolute;
+     z-index: 1100;
+     width: 500px;
+     float: left;
+     transition: all ease-in-out 0.3s;
+     bottom: -10px;
+ }
+ .wrapper .content .slide .news .newsbottom .newsleft:hover .caption{
+     bottom: 0;
+     
+     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 60%,#000 100%);
+ }
+ .wrapper .content .slide .news .newsbottom .newsleft:hover .caption h4{
+     color: rgb(255, 0, 43);
+ }
+ 
+ .newsbottom .caption h4,h6{
+     font-family:'Odor Mean Chey',cursive;
+     padding: 0px 10px;
+     color: #fff;
+     font-size: 20px;
+     font-weight: normal;
+     margin-bottom: 40px;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+ }
+ 
+ .newsbottom .newsleft .caption h6{
+   font-size: 12px;
+   display: none;
+   margin-top: -35px;
+   padding-bottom: 0px;
+ }
+ .newsbottom .newsleft:hover .caption h6{
+     display: block;
+ }
+ .newsbottom .newsleft .date {
+    margin-top: 225px;
+    position: absolute;
+    z-index: 1200;
+    width: 500px;
+    height: 253.5px;
+    float: left;
+    display: block;
+ }
+ .newsbottom .newsleft .date h5{
+     padding-left: 20px;
+     font-family: 'odor mean chey', cursive;
+     color: #fff;
+     font-size: 12px;
+     font-weight: normal;
+    
+ }
+ /*newsbottomrigth*/
+ /*imagenewbottomrigth*/
+.wrapper .content .slide .news .newsbottom .newsrigth .imgnews img{
+    width: 330px;
+    height: 253.5px;
+    position: absolute;
+}
+.wrapper .content .slide .news .newsbottom .newsrigth .label{
+    position: absolute;
+    margin-top: 10px;
+    display: inline-block;
+    z-index: 1100;
+}
+.newsbottom .newsrigth .label span{
+    padding: 0px 15px;
+    color: #fff;
+    font-family: 'Odor Mean Chey';
+    font-size: 13px;
+    line-height: 35px;
+}
+/*caption*/
+.wrapper .content .slide .news .newsbottom .newsrigth .caption{
+    display: block;
+     position: absolute;
+     z-index: 1100;
+     width: 330px;
+     float: right;
+     transition: all ease-in-out 0.3s;
+     bottom: -10px;
+ }
+ .wrapper .content .slide .news .newsbottom .newsrigth:hover .caption{
+     bottom: 0;
+     
+     background: linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.8) 60%,#000 100%);
+ }
+ .wrapper .content .slide .news .newsbottom .newsrigth:hover .caption h4{
+     color: rgb(255, 0, 43);
+ }
+ 
+ .newsbottom .newsrirgth .caption h4,h6{
+     font-family:'Odor Mean Chey',cursive;
+     padding: 0px 10px;
+     color: #fff;
+     font-size: 20px;
+     font-weight: normal;
+     margin-bottom: 40px;
+     text-shadow: 1px 1px 1px rgba(0, 0, 0, 4);
+ }
+ 
+ .newsbottom .newsrigth .caption h6{
+   font-size: 12px;
+   display: none;
+   margin-top: -35px;
+   padding-bottom: 0px;
+ }
+ .newsbottom .newsrigth:hover .caption h6{
+     display: block;
+ }
+ .newsbottom .newsrigth .date {
+    margin-top: 225px;
+    position: absolute;
+    z-index: 1200;
+    width: 330px;
+    height: 253.5px;
+    float: left;
+    display: block;
+ }
+ .newsbottom .newsrigth .date h5{
+     padding-left: 20px;
+     font-family: 'odor mean chey', cursive;
+     color: #fff;
+     font-size: 12px;
+     font-weight: normal;
+    
+ }
+ /*video*/
+ .wrapper .content .video{
+    width: 1139px;
+    height: 677px;
+    position: relative;
+    margin: 25px auto;
+    
+}
+ /*labelvideo*/
+
+ .wrapper .content .video .lavid{
+   float: left;
+   padding: 0;
+   
+ }
+ .content .video .lavid .label{
+     float: left;
+     
+ }
+.video .label a{
+   display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: none;;
+    font-family: koulen,cursive;
+    font-size: 20px;
+    padding: 5px 17px;
+    line-height: 40px;
+}
+/*boxvideo*/
+.video .boxcon{
+    position: relative;
+    width: 1139px;
+    
+    margin-top: 48px;
+    box-shadow:1px 2px 2px 1px rgb(0, 0, 0,.2);
+    border-top: 3px solid #F2272F;
+}
+/*boxtop*/
+.video .boxcon .boxtop{
+    width: 1139px;
+    height: 288px;
+   
+}
+/*boxtopleft*/
+.boxcon .boxtop .left{
+    width: 355px;
+    height: 288px;
+    float: left;
+    margin-left: 34px;
+    
+}
+.boxcon .boxtop .left .boximg{
+    width: 355px;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    
+    background-color: black;
+}
+.content .video .boxcon .boxtop .left .boximg >img{
+    width: 355px;
+    display: block;
+   
+    height: 200px;
+}
+.title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+/*hover image zoon out*/
+.boxcon  .boximg img{
+   transform: scale(1.1);
+}
+.boxcon  a:hover img{
+    transform: scale(1);
+    transition: all ease-in-out 0.4s;
+}
+
+
+
+/*boxtopmid*/
+.boxcon .boxtop .mid{
+    width: 355px;
+    height: 288px;
+    position: absolute;
+
+    margin-left: 392px;
+}
+.boxcon .boxtop .mid .boximg{
+    width: 355px;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+.content .video .boxcon .boxtop .mid .boximg >img{
+    width: 355px;
+    display: block;
+    height: 200px;
+}
+.mid .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+
+/*boxtoprigth*/
+.boxcon .boxtop .rigth{
+    width: 355px;
+    height: 288px;
+    float: right;
+    margin-right: 34px;
+}
+.boxcon .boxtop .rigth .boximg{
+    width: 355px;
+    height: 200px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+.content .video .boxcon .boxtop .rigth .boximg >img{
+    width: 355px;
+    display: block;
+    height: 200px;
+}
+.rigth .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 16px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*boxbottom*/
+.video .boxcon .boxbottom{
+    width: 1139px;
+    height: 342px;
+    
+    position: relative;
+}
+/*boxbottomcontent*/
+.video .boxcon .boxbottom .botcontent{
+    width: 745px;
+    height: 342px;
+    float: left;
+    position: relative;
+    margin-left: 34px;
+    
+}
+/*left*/
+.boxbottom .botcontent .botleft{
+    width: 360px;
+    height: 342px;
+    float: left;
+    z-index: 20;
+    overflow: hidden;
+    position: relative;
+  
+}
+/*boxleft*/
+.botcontent .botleft .boxtop{
+    width: 360px;
+    height: 342px;
+}
+.botcontent .botleft .boxtop .bleft{
+    width: 164px;
+    float: left;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botleft .boxtop .bleft .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botleft .boxtop .bleft .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+
+
+/*boxtoprigth*/
+.botcontent .botleft .boxtop .brigth{
+    width: 164px;
+   float: right;
+   display: block;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botleft .boxtop .brigth .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botleft .boxtop .brigth .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*boxbot*/
+.botcontent .botleft .boxbot{
+    width: 360px;
+    height: 342px;
+    display: block;
+    z-index: 22;
+    margin-top: -171px;
+    position: absolute;
+}
+/*boxbottom left*/
+.botcontent .botleft .boxbot .bleft{
+    width: 164px;
+    float: left;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botleft .boxbot .bleft .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botleft .boxbot .bleft .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*boxbottom rigth*/
+.botcontent .botleft .boxbot .brigth{
+    width: 164px;
+   float: right;
+   display: block;
+    height: 171px;
+    overflow: hidden;
+}
+.botcontent .botleft .boxbot .brigth .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botleft .boxbot .brigth .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+/*boxbottomrigth*/
+/*rigth*/
+.boxbottom .botcontent .botrigth{
+    width: 360px;
+    height: 342px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+  
+}
+
+/*boxrigth*/
+.botcontent .botrigth .boxtop{
+    width: 360px;
+    height: 342px;
+}
+.botcontent .botrigth .boxtop .bleft{
+    width: 164px;
+    float: left;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botrigth .boxtop .bleft .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botrigth .boxtop .bleft .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+
+
+/*boxtoprigth*/
+.botcontent .botrigth .boxtop .brigth{
+    width: 164px;
+   float: right;
+   display: block;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botrigth .boxtop .brigth .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botrigth .boxtop .brigth .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+/*boxbot*/
+.botcontent .botrigth .boxbot{
+    width: 360px;
+    height: 342px;
+    display: block;
+    z-index: 22;
+    margin-top: -171px;
+    position: absolute;
+}
+/*boxbottom left*/
+.botcontent .botrigth .boxbot .bleft{
+    width: 164px;
+    float: left;
+    height: 171px;
+    overflow: hidden;
+    
+}
+.botcontent .botrigth .boxbot .bleft .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botrigth .boxbot .bleft .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*boxbottom rigth*/
+.botcontent .botrigth .boxbot .brigth{
+    width: 164px;
+   float: right;
+   display: block;
+    height: 171px;
+    overflow: hidden;
+}
+.botcontent .botrigth .boxbot .brigth .boximg >img{
+    width: 164px;
+    display: block;
+    height: 92px;
+}
+.botcontent .botrigth .boxbot .brigth .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 10px;
+    font-size: 12px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*boxbottomads*/
+.video .boxcon .boxbottom .boxforads{
+    width: 300px;
+    height: 342px;
+    float: right;
+    position: relative;
+    margin-right: 34px;
+    overflow: hidden;
+    
+}
+.boxbottom .boxforads .adstop img{
+    width: 300px;
+    margin-top: 0;
+}
+.boxbottom .boxforads .adsmid img{
+    width: 300px;
+    margin-top: 6px;
+}
+.boxbottom .boxforads .adsbottom img{
+    width: 300px;
+    margin-top: 6px;
+}
+
+
+/*komsan*/
+.wrapper .content .komsan{
+    width: 1139px;
+    height: 677px;
+    position: relative;
+    margin: 25px auto;
+    
+}
+ /*labelkomsan*/
+
+ .wrapper .content .komsan .lavid{
+   float: left;
+   padding: 0;
+   
+ }
+ .content .komsan .lavid .label{
+     float: left;
+     
+ }
+.komsan .label a{
+   display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: none;;
+    font-family: koulen,cursive;
+    font-size: 20px;
+    padding: 5px 17px;
+    line-height: 40px;
+}
+/*box komsan*/
+.komsan .boxcon{
+    position: relative;
+    width: 1139px;
+    height: 384px;
+    margin-top: 48px;
+    box-shadow:1px 2px 2px 1px rgb(0, 0, 0,.2);
+    border-top: 3px solid #FA5480;
+}
+/*big*/
+.komsan .boxcon .big{
+    float: left;
+    background: #FA5480;
+    width: 350px;
+    height: 332px;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+.komsan .boxcon .big .bigimg{
+    width: 350px;
+    height: 195px;
+    overflow: hidden;
+    background: black;
+}
+.komsan .boxcon .big .bigimg img{
+    width: 350px;
+    height: 191px;
+    padding-top: 2px;
+}
+.komsan .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'odor mean chey',cursive;
+}
+
+/*hover image zoon out*/
+.boxcon img{
+   transform: scale(1.1);
+}
+.boxcon  a:hover img{
+    transform: scale(1);
+    transition: all ease-in-out 0.4s;
+}
+
+
+/*small*/
+.komsan .boxcon .small{
+    float: right;
+    width: 696px;
+    height: 332px;
+    margin-top: 20px;
+    margin-right: 34px;
+}
+/*sleft*/
+.komsan .boxcon .small .sleft{
+    width: 345px;
+   
+    height: 332px;
+    float: left;
+}
+/*stop*/
+
+.komsan .boxcon .small .sleft .stop{
+   width: 345px;
+   height: 166px;
+}
+/*stopleft*/
+.komsan .boxcon .small .sleft .stop .stopleft{
+    width: 167px;
+    height: 166px;
+    float: left;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+/*stoprigth*/
+.komsan .boxcon .small .sleft .stop .stoprigth{
+    width: 167px;
+    height: 166px;
+    float: right;
+    ;
+}
+
+/*sbot*/
+
+.komsan .boxcon .small .sleft .sbot{
+    width: 345px;
+    height: 166px;
+ }
+ /*sbotleft*/
+ .komsan .boxcon .small .sleft .sbot .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+
+ }
+ 
+ 
+ /*sbotrigth*/
+ .komsan .boxcon .small .sleft .sbot .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+
+ }
+
+
+/*srigth*/
+.komsan .boxcon .small .srigth{
+    width: 345px;
+    height: 332px;
+    float: right;
+}
+/*stop*/
+
+.komsan .boxcon .small .srigth .stop{
+    width: 345px;
+    height: 166px;
+ }
+ /*stopleft*/
+ .komsan .boxcon .small .srigth .stop .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+    
+ }
+ /*stoprigth*/
+ .komsan .boxcon .small .srigth .stop .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+     ;
+ }
+ 
+ /*sbot*/
+ 
+ .komsan .boxcon .small .srigth .sbot{
+     width: 345px;
+     height: 166px;
+  }
+  /*sbotleft*/
+  .komsan .boxcon .small .srigth .sbot .stopleft{
+      width: 167px;
+      height: 166px;
+      float: left;
+ 
+  }
+  
+  
+  /*sbotrigth*/
+  .komsan .boxcon .small .srigth .sbot .stoprigth{
+      width: 167px;
+      height: 166px;
+      float: right;
+ 
+  }
+  /*small image*/
+.komsan .boxcon .small .bigimg{
+    width: 167px;
+    height: 92px;
+    overflow: hidden;
+    background: black;
+}
+.komsan .boxcon .small .bigimg img{
+    width: 167px;
+    height: 92px;
+    padding-top: 2px;
+}
+
+
+/*title smal box*/
+.komsan .small .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: 3px;
+    font-size: 10px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+/*technology*/
+.wrapper .content .technology{
+    width: 1139px;
+    height: 677px;
+    position: relative;
+    margin: -245px auto;
+    
+}
+ /*label technology*/
+
+ .wrapper .content .technology .lavid{
+   float: left;
+   padding: 0;
+   
+ }
+ .content .technology .lavid .label{
+     float: left;
+     
+ }
+ .technology .label a{
+   display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: none;;
+    font-family: koulen,cursive;
+    font-size: 20px;
+    padding: 5px 17px;
+    line-height: 40px;
+}
+/*box technology*/
+.technology .boxcon{
+    position: relative;
+    width: 1139px;
+    height: 384px;
+    margin-top: 48px;
+    box-shadow:1px 2px 2px 1px rgb(0, 0, 0,.2);
+    border-top: 3px solid #38C378;
+}
+/*big*/
+.technology .boxcon .big{
+    float: left;
+    background: #38C378;
+    width: 350px;
+    height: 332px;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+.technology .boxcon .big .bigimg{
+    width: 350px;
+    height: 195px;
+    overflow: hidden;
+    background: black;
+}
+.technology .boxcon .big .bigimg img{
+    width: 350px;
+    height: 191px;
+    padding-top: 2px;
+}
+.technology .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'odor mean chey',cursive;
+}
+
+
+
+/*small*/
+.technology .boxcon .small{
+    float: right;
+    width: 696px;
+    height: 332px;
+    margin-top: 20px;
+    margin-right: 34px;
+}
+/*sleft*/
+.technology .boxcon .small .sleft{
+    width: 345px;
+   
+    height: 332px;
+    float: left;
+}
+/*stop*/
+
+.technology .boxcon .small .sleft .stop{
+   width: 345px;
+   height: 166px;
+}
+/*stopleft*/
+.technology .boxcon .small .sleft .stop .stopleft{
+    width: 167px;
+    height: 166px;
+    float: left;
+   
+}
+/*stoprigth*/
+.technology .boxcon .small .sleft .stop .stoprigth{
+    width: 167px;
+    height: 166px;
+    float: right;
+    ;
+}
+
+/*sbot*/
+
+.technology .boxcon .small .sleft .sbot{
+    width: 345px;
+    height: 166px;
+ }
+ /*sbotleft*/
+ .technology .boxcon .small .sleft .sbot .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+
+ }
+ 
+ 
+ /*sbotrigth*/
+ .technology .boxcon .small .sleft .sbot .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+
+ }
+
+
+/*srigth*/
+.technology .boxcon .small .srigth{
+    width: 345px;
+    height: 332px;
+    float: right;
+}
+/*stop*/
+
+.technology .boxcon .small .srigth .stop{
+    width: 345px;
+    height: 166px;
+ }
+ /*stopleft*/
+ .technology .boxcon .small .srigth .stop .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+    
+ }
+ /*stoprigth*/
+ .technology .boxcon .small .srigth .stop .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+     
+ }
+ 
+ /*sbot*/
+ 
+ .technology .boxcon .small .srigth .sbot{
+     width: 345px;
+     height: 166px;
+  }
+  /*sbotleft*/
+  .technology .boxcon .small .srigth .sbot .stopleft{
+      width: 167px;
+      height: 166px;
+      float: left;
+ 
+  }
+  
+  
+  /*sbotrigth*/
+  .technology .boxcon .small .srigth .sbot .stoprigth{
+      width: 167px;
+      height: 166px;
+      float: right;
+ 
+  }
+  /*small image*/
+  .technology .boxcon .small .bigimg{
+    width: 167px;
+    height: 92px;
+    overflow: hidden;
+    background: black;
+}
+.technology .boxcon .small .bigimg img{
+    width: 167px;
+    height: 92px;
+    padding-top: 2px;
+}
+
+
+/*title smal box*/
+.technology .small .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: 3px;
+    font-size: 10px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+
+/*social and life*/
+
+.wrapper .content .social{
+    width: 1139px;
+    height: 677px;
+    position: relative;
+    margin: 25px auto;
+    
+}
+ /*label social*/
+
+ .wrapper .content .social .lavid{
+   float: left;
+   padding: 0;
+   
+ }
+ .content .social .lavid .label{
+     float: left;
+     
+ }
+ .social .label a{
+   display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: none;;
+    font-family: koulen,cursive;
+    font-size: 20px;
+    padding: 5px 17px;
+    line-height: 40px;
+}
+/*box social*/
+.social .boxcon{
+    position: relative;
+    width: 1139px;
+    height: 384px;
+    margin-top: 48px;
+    box-shadow:1px 2px 2px 1px rgb(0, 0, 0,.2);
+    border-top: 3px solid #F9A62B;
+}
+/*big*/
+.social .boxcon .big{
+    float: left;
+    background: #F9A62B;
+    width: 350px;
+    height: 332px;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+.social .boxcon .big .bigimg{
+    width: 350px;
+    height: 195px;
+    overflow: hidden;
+    background: black;
+}
+.social .boxcon .big .bigimg img{
+    width: 350px;
+    height: 191px;
+    padding-top: 2px;
+}
+.social .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'odor mean chey',cursive;
+}
+/*small*/
+.social .boxcon .small{
+    float: right;
+    width: 696px;
+    height: 332px;
+    margin-top: 20px;
+    margin-right: 34px;
+}
+/*sleft*/
+.boxcon .small .sleft{
+    width: 345px;
+   
+    height: 332px;
+    float: left;
+}
+/*stop*/
+
+.social .boxcon .small .sleft .stop{
+   width: 345px;
+   height: 166px;
+}
+/*stopleft*/
+.social .boxcon .small .sleft .stop .stopleft{
+    width: 167px;
+    height: 166px;
+    float: left;
+   
+}
+/*stoprigth*/
+.social .boxcon .small .sleft .stop .stoprigth{
+    width: 167px;
+    height: 166px;
+    float: right;
+    ;
+}
+
+/*sbot*/
+
+.social .boxcon .small .sleft .sbot{
+    width: 345px;
+    height: 166px;
+ }
+ /*sbotleft*/
+ .social .boxcon .small .sleft .sbot .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+
+ }
+ 
+ /*sbotrigth*/
+ .social .boxcon .small .sleft .sbot .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+
+ }
+
+
+/*srigth*/
+.social .boxcon .small .srigth{
+    width: 345px;
+    height: 332px;
+    float: right;
+}
+/*stop*/
+
+.social .boxcon .small .srigth .stop{
+    width: 345px;
+    height: 166px;
+ }
+ /*stopleft*/
+ .social .boxcon .small .srigth .stop .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+    
+ }
+ /*stoprigth*/
+ .social .boxcon .small .srigth .stop .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+     
+ }
+ 
+ /*sbot*/
+ 
+ .social .boxcon .small .srigth .sbot{
+     width: 345px;
+     height: 166px;
+  }
+  /*sbotleft*/
+  .social .boxcon .small .srigth .sbot .stopleft{
+      width: 167px;
+      height: 166px;
+      float: left;
+ 
+  }
+  
+  
+  /*sbotrigth*/
+  .social .boxcon .small .srigth .sbot .stoprigth{
+      width: 167px;
+      height: 166px;
+      float: right;
+ 
+  }
+  /*small image*/
+  .social .boxcon .small .bigimg{
+    width: 167px;
+    height: 92px;
+    overflow: hidden;
+    background: black;
+}
+.social .boxcon .small .bigimg img{
+    width: 167px;
+    height: 92px;
+    padding-top: 2px;
+}
+
+
+/*title smal box*/
+.social .small .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: 3px;
+    font-size: 10px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+/*sport*/
+
+.wrapper .content .sport{
+    width: 1139px;
+    height: 677px;
+    position: relative;
+    margin: -245px auto;
+    
+}
+ /*label .sport*/
+
+ .wrapper .content .sport .lavid{
+   float: left;
+   padding: 0;
+   
+ }
+ .content .sport .lavid .label{
+     float: left;
+     
+ }
+ .sport .label a{
+   display: inline-block;
+    padding: 0px 20px;
+    color: #fff;
+    text-decoration: none;;
+    font-family: koulen,cursive;
+    font-size: 20px;
+    padding: 5px 17px;
+    line-height: 40px;
+}
+/*box .sport*/
+.sport .boxcon{
+    position: relative;
+    width: 1139px;
+    height: 384px;
+    margin-top: 48px;
+    box-shadow:1px 2px 2px 1px rgb(0, 0, 0,.2);
+    border-top: 3px solid #4390F8;
+}
+/*big*/
+.sport .boxcon .big{
+    float: left;
+    background: #4390F8;
+    width: 350px;
+    height: 332px;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+.sport .boxcon .big .bigimg{
+    width: 350px;
+    height: 195px;
+    overflow: hidden;
+    background: black;
+}
+.sport .boxcon .big .bigimg img{
+    width: 350px;
+    height: 191px;
+    padding-top: 2px;
+}
+.sport .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'odor mean chey',cursive;
+}
+/*small*/
+.sport .boxcon .small{
+    float: right;
+    width: 696px;
+    height: 332px;
+    margin-top: 20px;
+    margin-right: 34px;
+}
+/*sleft*/
+.boxcon .small .sleft{
+    width: 345px;
+   
+    height: 332px;
+    float: left;
+}
+/*stop*/
+
+.sport .boxcon .small .sleft .stop{
+   width: 345px;
+   height: 166px;
+}
+/*stopleft*/
+.sport .boxcon .small .sleft .stop .stopleft{
+    width: 167px;
+    height: 166px;
+    float: left;
+   
+}
+/*stoprigth*/
+.sport .boxcon .small .sleft .stop .stoprigth{
+    width: 167px;
+    height: 166px;
+    float: right;
+    ;
+}
+
+/*sbot*/
+
+.sport .boxcon .small .sleft .sbot{
+    width: 345px;
+    height: 166px;
+ }
+ /*sbotleft*/
+ .sport .boxcon .small .sleft .sbot .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+
+ }
+ 
+ /*sbotrigth*/
+ .sport .boxcon .small .sleft .sbot .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+
+ }
+
+
+/*srigth*/
+.sport .boxcon .small .srigth{
+    width: 345px;
+    height: 332px;
+    float: right;
+}
+/*stop*/
+
+.sport .boxcon .small .srigth .stop{
+    width: 345px;
+    height: 166px;
+ }
+ /*stopleft*/
+ .sport .boxcon .small .srigth .stop .stopleft{
+     width: 167px;
+     height: 166px;
+     float: left;
+    
+ }
+ /*stoprigth*/
+ .sport .boxcon .small .srigth .stop .stoprigth{
+     width: 167px;
+     height: 166px;
+     float: right;
+     
+ }
+ 
+ /*sbot*/
+ 
+ .sport .boxcon .small .srigth .sbot{
+     width: 345px;
+     height: 166px;
+  }
+  /*sbotleft*/
+  .sport .boxcon .small .srigth .sbot .stopleft{
+      width: 167px;
+      height: 166px;
+      float: left;
+ 
+  }
+  
+  
+  /*sbotrigth*/
+  .sport .boxcon .small .srigth .sbot .stoprigth{
+      width: 167px;
+      height: 166px;
+      float: right;
+ 
+  }
+  /*small image*/
+  .sport .boxcon .small .bigimg{
+    width: 167px;
+    height: 92px;
+    overflow: hidden;
+    background: black;
+}
+.sport .boxcon .small .bigimg img{
+    width: 167px;
+    height: 92px;
+    padding-top: 2px;
+}
+
+
+/*title smal box*/
+.sport .small .title span{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 0;
+    padding-top: 3px;
+    font-size: 10px;
+    color: black;
+    font-family: 'odor mean chey',cursive;
+}
+/*footer*/
+.footer{
+    width: 100%;
+    height: 265px;
+    margin-top:65px;
+    background-color: black;
+}
+/*footer left*/
+.footer .fleft{
+    width: 1065px;
+    float: left;
+    
+    height: 265px;
+}
+/*le*/
+.footer .fleft .le{
+    width: 387px;
+    float: left;
+    margin-left: 198px;
+    height: 265px;
+
+}
+.footer .fleft .le .fimg{
+    margin-top: 40px;
+    
+}
+.footer .fleft .le .fimg img{
+    width: 150px;
+    
+}
+.footer .fleft .le .fimg span{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'odor mean chey',cursive;
+    padding: 20px 10px;
+}
+
+
+/*ri*/
+.footer .fleft .ri{
+    width: 480px;
+    float: right;
+    height: 265px;
+   
+}
+.footer .fleft .ri .title{
+    margin-top: 25px;
+}
+.footer .fleft .ri .title h3{
+    
+    color: #fff;
+    font-weight: normal;
+    font-family: koulen,cursive;
+    padding: 20px 10px;
+}
+.footer .fleft .ri .title span{
+    color: #fff;
+    font-size: 14px;
+    margin-top: -20px;
+    font-family: 'odor mean chey',cursive;
+    padding: 20px 10px;
+}
+
+/*footer rigth*/
+.footer .frigth{
+    width: 454px;
+    float: right;
+  
+    height: 265px;
+}
+/*title*/
+.footer .frigth .title{
+    margin-top: 25px;
+}
+.footer .frigth .title h3{
+    color: #fff;
+    font-weight: normal;
+    font-family: koulen,cursive;
+    padding-top: 20px;
+   z-index: 10;
+ 
+}
+.footer .frigth .icon{
+   width: 100px;
+    margin-top: 20px;
+   z-index: 1000;
+ 
+}
+.footer .frigth .icon i{
+    display: inline-block;
+    color: #fff;
+    
+}
+.footer .frigth .de{
+    margin-top: 70px;
+}
+.footer .frigth .de span{
+    font-family: 'odor mean chey',cursive;
+    color: #fff;
+}
+.footer .frigth .de a{
+    text-decoration: none;
+    color: gray;
+}
+.footer .frigth .de a:hover{
+    color: #fff;
+}
